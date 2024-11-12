@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    
+}
+
+header {
+    display: flex;
+    background-color:beige;
+   align-content: center;
+   justify-content: space-between;
+   position: fixed;
+   margin-left: 0px;
+   margin-right: 0px;
+   height: 80px;
+   width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+    border-color: blue;
+}
+header img {
+    height: 80px;
+    width: 80px
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify content: center;
+}
+
+main img{
+    height: 500px;
+    width: 500px
+}
